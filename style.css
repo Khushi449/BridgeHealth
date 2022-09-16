@@ -1,0 +1,82 @@
+body{
+  background-color: #ebeff4;
+
+  position: relative;
+}
+hr{
+  margin-top: 0;
+}
+.middle{
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+.bellicon{
+  position: absolute;
+  top: 3px;
+  left: 1100px;
+  font-size: 1.5rem;
+}
+.name{
+  position: absolute;
+  top: 3px;
+  left: 1150px;
+  font-size: 1.5rem;
+}
+.top-head{
+  font-family: Rubik;
+  color: #00c4c4;
+}
+.top-container{
+  margin-top: 100px;
+  height: 400px;
+  /*scrollbar*/
+  overflow-y: scroll;
+  width: 200px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  position: fixed;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+.nav-link{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.table{
+  margin: 50px;
+  border-collapse: separate;
+  border: solid #ccc 1px;
+  border-radius: 6px;
+}
+.table-head{
+  margin: 500px;
+  align-content: center;
+}
+.table-body{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.userpic{
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+}
